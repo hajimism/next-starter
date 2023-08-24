@@ -16,7 +16,7 @@ updates:
           - "@typescript-eslint*"
       commitlint:
         patterns:
-          - commitlint*
+          - "@commitlint*"
       storybook:
         patterns:
           - storybook
@@ -29,7 +29,9 @@ updates:
         patterns:
           - tailwind*
           - "@tailwind*"
-      next:
+          - autoprefixer
+          - postcss
+      react:
         patterns:
           - react
           - react-dom
