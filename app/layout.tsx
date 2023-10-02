@@ -1,6 +1,7 @@
 import "../styles/tailwind.css";
+import type { PropsWithChildren } from "react";
+
 import { Inter } from "next/font/google";
-import { PropsWithChildren } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 

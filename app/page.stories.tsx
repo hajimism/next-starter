@@ -1,7 +1,7 @@
+import type { Meta, StoryObj } from "@storybook/react";
+
 import RootLayout from "./layout";
 import Page from "./page";
-
-import type { Meta, StoryObj } from "@storybook/react";
 
 const meta: Meta<typeof Page> = {
   title: "pages/Home",
