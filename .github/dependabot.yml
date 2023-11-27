@@ -7,9 +7,6 @@ updates:
       interval: 'weekly'
 
     groups:
-      prettier:
-        patterns:
-          - prettier*
       eslint:
         patterns:
           - eslint*

@@ -13,5 +13,4 @@ questions:
 export default function Page() {
   return <></>;
 }
-
 ```
