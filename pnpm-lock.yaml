@@ -17,6 +17,9 @@ dependencies:
   autoprefixer:
     specifier: 10.4.16
     version: 10.4.16(postcss@8.4.31)
+  dprint:
+    specifier: ^0.43.1
+    version: 0.43.1
   eslint:
     specifier: 8.53.0
     version: 8.53.0
@@ -82,9 +85,6 @@ devDependencies:
   '@typescript-eslint/parser':
     specifier: ^6.11.0
     version: 6.11.0(eslint@8.53.0)(typescript@5.2.2)
-  eslint-config-prettier:
-    specifier: ^9.0.0
-    version: 9.0.0(eslint@8.53.0)
   eslint-plugin-import:
     specifier: ^2.29.0
     version: 2.29.0(@typescript-eslint/parser@6.11.0)(eslint-import-resolver-typescript@3.6.1)(eslint@8.53.0)
@@ -103,9 +103,6 @@ devDependencies:
   npm-run-all:
     specifier: ^4.1.5
     version: 4.1.5
-  prettier:
-    specifier: ^3.1.0
-    version: 3.1.0
   scaffdog:
     specifier: ^3.0.0
     version: 3.0.0
@@ -1691,6 +1688,62 @@ packages:
     resolution: {integrity: sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==}
     engines: {node: '>=10.0.0'}
     dev: true
+
+  /@dprint/darwin-arm64@0.43.1:
+    resolution: {integrity: sha512-QK7/Eitb4RzrsvM1Y+7qzK6K49BTowr+u8+gwbczAVPiIDyygbJ/0N3wwBskiA86vA4SxDXaTOg4YbAHSZ1toA==}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@dprint/darwin-x64@0.43.1:
+    resolution: {integrity: sha512-oO7UuxPzQmFtIfHV6RgakD40DaibDVq73ewcFrWSFRNHWkl1MdkgbFIxOIltJUuRVf+yjW9bHGflmImdtl7qsQ==}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@dprint/linux-arm64-glibc@0.43.1:
+    resolution: {integrity: sha512-6hb7p3cp9eW9lpDTY/4WQE1RgG9VuizOXtQCCw2jvML8xnAdO6fAXEs9OtgGvdt5tpwxmLWLUzOBDGdcJE6Q6Q==}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@dprint/linux-arm64-musl@0.43.1:
+    resolution: {integrity: sha512-EBs7r04KpB9eBMAtGLa6MXy8m7T6AkoOVcih7qZnFPmDc1d2jbIwf6ctnDlYRWYlof9BMHSiXhJiD863TRx5hA==}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@dprint/linux-x64-glibc@0.43.1:
+    resolution: {integrity: sha512-GDno20hSZBEByu3JVBMzU3ArsFuYj+lBhEFjubSZRDZFadkaLohtEHw/I5Lpd0Pe4+dynMdKyLjA92J6yWy//w==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@dprint/linux-x64-musl@0.43.1:
+    resolution: {integrity: sha512-Nrkc+AaM90yMl7VSGLy3xUmIeFflE77PFth/rQaFqUb2D2rS8o6OydAxLDCD+WoYs5m2zlSb0l2M112s1Rxyqw==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@dprint/win32-x64@0.43.1:
+    resolution: {integrity: sha512-A5OhpGwNcmUtf7dyZrdrhQLRZEfV5yye7e2I7l4eR48inFEVrsuMDXgLqlR5Xa8fl977z8owvOGOOFYIE5wWzQ==}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
 
   /@emotion/use-insertion-effect-with-fallbacks@1.0.1(react@18.2.0):
     resolution: {integrity: sha512-jT/qyKZ9rzLErtrjGgdkMBn2OP8wl0G3sQlBb3YPryvKHsjvINUhVaPFfP+fpBcOkmrVOVEEHQFJ7nbj2TH2gw==}
@@ -6712,6 +6765,20 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
+  /dprint@0.43.1:
+    resolution: {integrity: sha512-wdxiQehZNCu99g41qZlGP1W+ypGgK20v8MY75qf58SbejOqACJgO2g+xhHes3x1Gn5fNyDxU8gsm2xrTyDby8w==}
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      '@dprint/darwin-arm64': 0.43.1
+      '@dprint/darwin-x64': 0.43.1
+      '@dprint/linux-arm64-glibc': 0.43.1
+      '@dprint/linux-arm64-musl': 0.43.1
+      '@dprint/linux-x64-glibc': 0.43.1
+      '@dprint/linux-x64-musl': 0.43.1
+      '@dprint/win32-x64': 0.43.1
+    dev: false
+
   /duplexify@3.7.1:
     resolution: {integrity: sha512-07z8uv2wMyS51kKhD1KsdXJg5WQ6t93RneqRxUHnskXVtlYYkLqM0gqStQZ3pj073g687jPCHrqNfCzawLYh5g==}
     dependencies:
@@ -7030,15 +7097,6 @@ packages:
       - eslint-import-resolver-webpack
       - supports-color
     dev: false
-
-  /eslint-config-prettier@9.0.0(eslint@8.53.0):
-    resolution: {integrity: sha512-IcJsTkJae2S35pRsRAwoCE+925rJJStOdkKnLVgtE+tEpqU0EVVM7OqrwxqgptKdX29NUwC82I5pXsGFIgSevw==}
-    hasBin: true
-    peerDependencies:
-      eslint: '>=7.0.0'
-    dependencies:
-      eslint: 8.53.0
-    dev: true
 
   /eslint-import-resolver-node@0.3.9:
     resolution: {integrity: sha512-WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==}
@@ -10572,12 +10630,6 @@ packages:
   /prettier@2.8.8:
     resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
-    hasBin: true
-    dev: true
-
-  /prettier@3.1.0:
-    resolution: {integrity: sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==}
-    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
