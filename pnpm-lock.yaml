@@ -77,8 +77,8 @@ devDependencies:
     specifier: ^0.2.2
     version: 0.2.2
   '@tsconfig/strictest':
-    specifier: ^2.0.4
-    version: 2.0.4
+    specifier: ^2.0.5
+    version: 2.0.5
   '@typescript-eslint/eslint-plugin':
     specifier: ^6.11.0
     version: 6.11.0(@typescript-eslint/parser@6.11.0)(eslint@8.53.0)(typescript@5.3.2)
@@ -4191,8 +4191,8 @@ packages:
       '@testing-library/dom': 9.3.3
     dev: true
 
-  /@tsconfig/strictest@2.0.4:
-    resolution: {integrity: sha512-/VKO/oufDOvAE48KGzZOEXFBKtR3PnGlb4cJoRtw3Ax5tYwaWnaNgyTJDviIbvjlnn82WMfTNvhegFkj5Xt2UA==}
+  /@tsconfig/strictest@2.0.5:
+    resolution: {integrity: sha512-ec4tjL2Rr0pkZ5hww65c+EEPYwxOi4Ryv+0MtjeaSQRJyq322Q27eOQiFbuNgw2hpL4hB1/W/HBGk3VKS43osg==}
     dev: true
 
   /@types/aria-query@5.0.2:
