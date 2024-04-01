@@ -24,8 +24,8 @@
   },
   "dependencies": {
     "@types/node": "20.9.2",
-    "@types/react": "18.2.70",
-    "@types/react-dom": "18.2.22",
+    "@types/react": "18.2.73",
+    "@types/react-dom": "18.2.23",
     "autoprefixer": "10.4.16",
     "dprint": "^0.43.2",
     "eslint": "8.53.0",
