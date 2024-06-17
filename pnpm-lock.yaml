@@ -18,8 +18,8 @@ dependencies:
     specifier: 10.4.16
     version: 10.4.16(postcss@8.4.32)
   dprint:
-    specifier: ^0.43.2
-    version: 0.43.2
+    specifier: ^0.46.2
+    version: 0.46.2
   eslint:
     specifier: 8.53.0
     version: 8.53.0
@@ -1659,56 +1659,56 @@ packages:
     engines: {node: '>=10.0.0'}
     dev: true
 
-  /@dprint/darwin-arm64@0.43.2:
-    resolution: {integrity: sha512-EPBM3my8L2Wq+UPjfRepKLsZZe30mipvgT6HdpsT8FXqrvVaHcE5BxQdyu0TH/V7GogmeMXOaiAgH9f5IBkdTg==}
+  /@dprint/darwin-arm64@0.46.2:
+    resolution: {integrity: sha512-IA/VIWwmIJ4a9rLB0paU0ryXFHRV+NHyWykDa4F+3WgbyXVlv1PVncW5wgfZJ38wQM8FDfPUO2Ar8+Nkx8Fkfg==}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     dev: false
     optional: true
 
-  /@dprint/darwin-x64@0.43.2:
-    resolution: {integrity: sha512-zXabg6PF8g3d0Zc7KS3gj6/w38jO6GqIwHG0fvJh+E1UiSs36xLjLAsyZh7/6wrDu7LfD/g5WOUz1QAfrnO3zQ==}
+  /@dprint/darwin-x64@0.46.2:
+    resolution: {integrity: sha512-YMY40MsN1CL/8fGPcZaA/3KeE09GHt7y4ZRJGCw8Cx7AjZ3P+SlNxL6X9v72eXUfotzudcZc5yC72tdUFaN7oA==}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
     dev: false
     optional: true
 
-  /@dprint/linux-arm64-glibc@0.43.2:
-    resolution: {integrity: sha512-XV6pXgyT8iKHf/VOB9JVZlU73mTX6vjJ+fLY0c+r9j7Zgjp6kb4JX6mTfeEwTZYBsZUzOmxKj+kno1mfw6dUHg==}
+  /@dprint/linux-arm64-glibc@0.46.2:
+    resolution: {integrity: sha512-brllu3G7nPV5GQTHnDF54ihGwgWHxRr03EQI0Mbbif94P/jl+Dqf9I6qWBSDVt/zQTThY1aYIZt+mpblD4oXZQ==}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: false
     optional: true
 
-  /@dprint/linux-arm64-musl@0.43.2:
-    resolution: {integrity: sha512-aaWBIOMncDb0YrRmmNKCs7tf6H26VB0izX2bPIbMiOc50hPuCI28lz1lY+zdwdFKG+1aRkKHkLJtpOjgvmEqCw==}
+  /@dprint/linux-arm64-musl@0.46.2:
+    resolution: {integrity: sha512-+9pF6qmSMobvtlTk/PnyqYE66nlwyrg7TeJb+RhqAT3y40v8TT4XafdK5p5GOrC1qf1QV4PCLAuOrHAKaYLNqg==}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: false
     optional: true
 
-  /@dprint/linux-x64-glibc@0.43.2:
-    resolution: {integrity: sha512-OBJlQCvPCQOgSZvQhTVJbF6mD9Bpz3hhecTZNnU/n83bHX1L3cwu/laws0mQPXOxJvBKpYVgN5ceZelIO0ZKWA==}
+  /@dprint/linux-x64-glibc@0.46.2:
+    resolution: {integrity: sha512-iq0WfIyLrxaE0PVXw89FKwC2VIbo3Hb6PscEVtzWDOpm/bmURXs5JIjRFpAaGfwCZcwzds70bb7utT5ItgZtlA==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: false
     optional: true
 
-  /@dprint/linux-x64-musl@0.43.2:
-    resolution: {integrity: sha512-WVnivencONHhRVfgbKPf95P3ES8DYowBCk80tROg41BBRdP/WJoPWc5Ocm6mhEGEeIpcHol+xvwKkqZkkMxJcg==}
+  /@dprint/linux-x64-musl@0.46.2:
+    resolution: {integrity: sha512-Ins2SD0v5Q61b6WIcxnsoHT84E+kyiUjjespxcWzqLrXdPgy8ATLMfcx1vHS4ALD687+PkwCgPF8N2jK66Md6A==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: false
     optional: true
 
-  /@dprint/win32-x64@0.43.2:
-    resolution: {integrity: sha512-ZboeX4lGZ+MtFyWV/Z9wxV3Re2zb/t6u79V38aKgCWDuy1SzGdxZcCPjEEY17lxwGpzgD5T0VBVdiBQLIy08CQ==}
+  /@dprint/win32-x64@0.46.2:
+    resolution: {integrity: sha512-4msLVoyMppU5yPlxnCU0ibk6ahSQs1vcc7ToJkOi3LiCqu/KU+hYk2+bwqiZaQ1usi24iA9AIB+aBVA6X3VDXg==}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
@@ -6701,18 +6701,18 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /dprint@0.43.2:
-    resolution: {integrity: sha512-9p/dmiFSkTl3hEvCfNbc/jwVwZp4JE5Bgm0z148QEXU7v+FA2dv0xQooAagWEnCPAQgxYcQhecTxrLanOsyNoA==}
+  /dprint@0.46.2:
+    resolution: {integrity: sha512-wjbOghUDqy4gNgW2TNkGOBCAfxwkWBUAyCEkqFZbrBKTGZ1DVbHB1YZOTwVlQNIcDcLWTZQz2AnIK1HjQC/rIQ==}
     hasBin: true
     requiresBuild: true
     optionalDependencies:
-      '@dprint/darwin-arm64': 0.43.2
-      '@dprint/darwin-x64': 0.43.2
-      '@dprint/linux-arm64-glibc': 0.43.2
-      '@dprint/linux-arm64-musl': 0.43.2
-      '@dprint/linux-x64-glibc': 0.43.2
-      '@dprint/linux-x64-musl': 0.43.2
-      '@dprint/win32-x64': 0.43.2
+      '@dprint/darwin-arm64': 0.46.2
+      '@dprint/darwin-x64': 0.46.2
+      '@dprint/linux-arm64-glibc': 0.46.2
+      '@dprint/linux-arm64-musl': 0.46.2
+      '@dprint/linux-x64-glibc': 0.46.2
+      '@dprint/linux-x64-musl': 0.46.2
+      '@dprint/win32-x64': 0.46.2
     dev: false
 
   /duplexify@3.7.1:
