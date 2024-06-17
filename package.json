@@ -26,15 +26,15 @@
     "@types/node": "20.9.2",
     "@types/react": "18.2.79",
     "@types/react-dom": "18.2.25",
-    "autoprefixer": "10.4.16",
+    "autoprefixer": "10.4.19",
     "dprint": "^0.43.2",
     "eslint": "8.53.0",
     "eslint-config-next": "14.0.3",
     "next": "14.2.4",
-    "postcss": "8.4.32",
+    "postcss": "8.4.38",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.7",
+    "tailwindcss": "3.4.4",
     "typescript": "5.3.2"
   },
   "devDependencies": {
