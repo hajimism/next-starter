@@ -21,8 +21,8 @@ importers:
         specifier: 10.4.16
         version: 10.4.16(postcss@8.4.32)
       dprint:
-        specifier: ^0.43.2
-        version: 0.43.2
+        specifier: ^0.47.6
+        version: 0.47.6
       eslint:
         specifier: 8.53.0
         version: 8.53.0
@@ -880,38 +880,48 @@ packages:
     resolution: {integrity: sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==}
     engines: {node: '>=10.0.0'}
 
-  '@dprint/darwin-arm64@0.43.2':
-    resolution: {integrity: sha512-EPBM3my8L2Wq+UPjfRepKLsZZe30mipvgT6HdpsT8FXqrvVaHcE5BxQdyu0TH/V7GogmeMXOaiAgH9f5IBkdTg==}
+  '@dprint/darwin-arm64@0.47.6':
+    resolution: {integrity: sha512-DrtKVOH7Ue6QYsqsUfUwBlTkSZNF2j35xqyI6KimUT1ulgUPocLG53JC/Aej9KuSCPmt4M3J40xxPKRgIM4jPA==}
     cpu: [arm64]
     os: [darwin]
 
-  '@dprint/darwin-x64@0.43.2':
-    resolution: {integrity: sha512-zXabg6PF8g3d0Zc7KS3gj6/w38jO6GqIwHG0fvJh+E1UiSs36xLjLAsyZh7/6wrDu7LfD/g5WOUz1QAfrnO3zQ==}
+  '@dprint/darwin-x64@0.47.6':
+    resolution: {integrity: sha512-p16a4lMbAo4RngbNTAmtREnIRI/cOcZFy5wHPIzbCDnnHI+4UyHiAypTrpF8U8EYx1tw3hgih2MyAuupa9Gfag==}
     cpu: [x64]
     os: [darwin]
 
-  '@dprint/linux-arm64-glibc@0.43.2':
-    resolution: {integrity: sha512-XV6pXgyT8iKHf/VOB9JVZlU73mTX6vjJ+fLY0c+r9j7Zgjp6kb4JX6mTfeEwTZYBsZUzOmxKj+kno1mfw6dUHg==}
+  '@dprint/linux-arm64-glibc@0.47.6':
+    resolution: {integrity: sha512-WHphnk0oXpNzwJ9cjbddOL+hEZkXTvHxcA2pM1h1kWCBa5m+4qh0fg8YCktckMfHx1qdQuZYWRoT4l7yQbzWYA==}
     cpu: [arm64]
     os: [linux]
 
-  '@dprint/linux-arm64-musl@0.43.2':
-    resolution: {integrity: sha512-aaWBIOMncDb0YrRmmNKCs7tf6H26VB0izX2bPIbMiOc50hPuCI28lz1lY+zdwdFKG+1aRkKHkLJtpOjgvmEqCw==}
+  '@dprint/linux-arm64-musl@0.47.6':
+    resolution: {integrity: sha512-/2cSPudajg8J0U69ldNZkJx5QiKZNh+ohNVM9leWZ8v6GXN6sJDHX3T6hzS3ohIb03YOCiLOrJZDy9j3+fSgdQ==}
     cpu: [arm64]
     os: [linux]
 
-  '@dprint/linux-x64-glibc@0.43.2':
-    resolution: {integrity: sha512-OBJlQCvPCQOgSZvQhTVJbF6mD9Bpz3hhecTZNnU/n83bHX1L3cwu/laws0mQPXOxJvBKpYVgN5ceZelIO0ZKWA==}
+  '@dprint/linux-riscv64-glibc@0.47.6':
+    resolution: {integrity: sha512-RMHJ3Zuzpls426upHlAveVwlGMi8oBLzhiCauyC/yWQl3CkGTAYdyhEpGnux0+RxacysfIL2bd8ourx4K0Sx3w==}
+    cpu: [riscv64]
+    os: [linux]
+
+  '@dprint/linux-x64-glibc@0.47.6':
+    resolution: {integrity: sha512-4zbVsx/a8lHkRyAjfW0PNlN5IMwOJfFapgXNYJowWNO7X3j3m1jYJWovjmdZls+d6pDeOHoanMWtq95wd7zTeQ==}
     cpu: [x64]
     os: [linux]
 
-  '@dprint/linux-x64-musl@0.43.2':
-    resolution: {integrity: sha512-WVnivencONHhRVfgbKPf95P3ES8DYowBCk80tROg41BBRdP/WJoPWc5Ocm6mhEGEeIpcHol+xvwKkqZkkMxJcg==}
+  '@dprint/linux-x64-musl@0.47.6':
+    resolution: {integrity: sha512-0C13t4OVzomgQjvUyD5IrRyjLDhGuOtqMo00uJlwn3QHucfgOBqkjyQ5fq7T6+grBse0m14/EWblvSbYkZpyDw==}
     cpu: [x64]
     os: [linux]
 
-  '@dprint/win32-x64@0.43.2':
-    resolution: {integrity: sha512-ZboeX4lGZ+MtFyWV/Z9wxV3Re2zb/t6u79V38aKgCWDuy1SzGdxZcCPjEEY17lxwGpzgD5T0VBVdiBQLIy08CQ==}
+  '@dprint/win32-arm64@0.47.6':
+    resolution: {integrity: sha512-UOkeFMBdGIuGNwfkrJdVM9eNiRMdbZRRGVy0Cdo2AXn/FCDVqZ74KJkvYVcoUE27GCytHi4Sp1s4at7659WCOw==}
+    cpu: [arm64]
+    os: [win32]
+
+  '@dprint/win32-x64@0.47.6':
+    resolution: {integrity: sha512-i9xwXR8V8Jk/wU1gsYKx15eb0ypBRbRZFkHsnHfC0ZBimcfEOibGnGcfv+UCUcumXtnV46TnBqaJW7H70J1J+A==}
     cpu: [x64]
     os: [win32]
 
@@ -3309,8 +3319,8 @@ packages:
     resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
     engines: {node: '>=12'}
 
-  dprint@0.43.2:
-    resolution: {integrity: sha512-9p/dmiFSkTl3hEvCfNbc/jwVwZp4JE5Bgm0z148QEXU7v+FA2dv0xQooAagWEnCPAQgxYcQhecTxrLanOsyNoA==}
+  dprint@0.47.6:
+    resolution: {integrity: sha512-vCQC+IMHVZbISA5pxEj+yshQbozmQoVFA4lzcLlqJ8rzIAH8U+1DKvesN/2Uv3Bqz6rMW6W4WY7pYJQljmiZ8w==}
     hasBin: true
 
   duplexify@3.7.1:
@@ -7864,25 +7874,31 @@ snapshots:
 
   '@discoveryjs/json-ext@0.5.7': {}
 
-  '@dprint/darwin-arm64@0.43.2':
+  '@dprint/darwin-arm64@0.47.6':
     optional: true
 
-  '@dprint/darwin-x64@0.43.2':
+  '@dprint/darwin-x64@0.47.6':
     optional: true
 
-  '@dprint/linux-arm64-glibc@0.43.2':
+  '@dprint/linux-arm64-glibc@0.47.6':
     optional: true
 
-  '@dprint/linux-arm64-musl@0.43.2':
+  '@dprint/linux-arm64-musl@0.47.6':
     optional: true
 
-  '@dprint/linux-x64-glibc@0.43.2':
+  '@dprint/linux-riscv64-glibc@0.47.6':
     optional: true
 
-  '@dprint/linux-x64-musl@0.43.2':
+  '@dprint/linux-x64-glibc@0.47.6':
     optional: true
 
-  '@dprint/win32-x64@0.43.2':
+  '@dprint/linux-x64-musl@0.47.6':
+    optional: true
+
+  '@dprint/win32-arm64@0.47.6':
+    optional: true
+
+  '@dprint/win32-x64@0.47.6':
     optional: true
 
   '@emotion/use-insertion-effect-with-fallbacks@1.0.1(react@18.2.0)':
@@ -11014,15 +11030,17 @@ snapshots:
 
   dotenv@16.4.5: {}
 
-  dprint@0.43.2:
+  dprint@0.47.6:
     optionalDependencies:
-      '@dprint/darwin-arm64': 0.43.2
-      '@dprint/darwin-x64': 0.43.2
-      '@dprint/linux-arm64-glibc': 0.43.2
-      '@dprint/linux-arm64-musl': 0.43.2
-      '@dprint/linux-x64-glibc': 0.43.2
-      '@dprint/linux-x64-musl': 0.43.2
-      '@dprint/win32-x64': 0.43.2
+      '@dprint/darwin-arm64': 0.47.6
+      '@dprint/darwin-x64': 0.47.6
+      '@dprint/linux-arm64-glibc': 0.47.6
+      '@dprint/linux-arm64-musl': 0.47.6
+      '@dprint/linux-riscv64-glibc': 0.47.6
+      '@dprint/linux-x64-glibc': 0.47.6
+      '@dprint/linux-x64-musl': 0.47.6
+      '@dprint/win32-arm64': 0.47.6
+      '@dprint/win32-x64': 0.47.6
 
   duplexify@3.7.1:
     dependencies:
@@ -11273,7 +11291,7 @@ snapshots:
       debug: 4.3.4
       enhanced-resolve: 5.15.0
       eslint: 8.53.0
-      eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.11.0(eslint@8.53.0)(typescript@5.3.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@6.11.0(eslint@8.53.0)(typescript@5.3.2))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.0)(eslint@8.53.0))(eslint@8.53.0)
+      eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.11.0(eslint@8.53.0)(typescript@5.3.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.53.0)
       eslint-plugin-import: 2.29.0(@typescript-eslint/parser@6.11.0(eslint@8.53.0)(typescript@5.3.2))(eslint-import-resolver-typescript@3.6.1)(eslint@8.53.0)
       fast-glob: 3.3.2
       get-tsconfig: 4.7.2
@@ -11285,7 +11303,7 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-module-utils@2.8.0(@typescript-eslint/parser@6.11.0(eslint@8.53.0)(typescript@5.3.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@6.11.0(eslint@8.53.0)(typescript@5.3.2))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.0)(eslint@8.53.0))(eslint@8.53.0):
+  eslint-module-utils@2.8.0(@typescript-eslint/parser@6.11.0(eslint@8.53.0)(typescript@5.3.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.53.0):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
@@ -11306,7 +11324,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.53.0
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.11.0(eslint@8.53.0)(typescript@5.3.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1(@typescript-eslint/parser@6.11.0(eslint@8.53.0)(typescript@5.3.2))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.0)(eslint@8.53.0))(eslint@8.53.0)
+      eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.11.0(eslint@8.53.0)(typescript@5.3.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.53.0)
       hasown: 2.0.0
       is-core-module: 2.13.1
       is-glob: 4.0.3
