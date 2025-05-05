@@ -112,8 +112,8 @@ importers:
         specifier: ^7.6.17
         version: 7.6.17
       styled-jsx:
-        specifier: ^5.1.6
-        version: 5.1.6(@babel/core@7.23.9)(react@18.2.0)
+        specifier: ^5.1.7
+        version: 5.1.7(@babel/core@7.23.9)(react@18.2.0)
 
 packages:
 
@@ -6283,8 +6283,8 @@ packages:
       babel-plugin-macros:
         optional: true
 
-  styled-jsx@5.1.6:
-    resolution: {integrity: sha512-qSVyDTeMotdvQYoHWLNGwRFJHC+i+ZvdBRYosOFgC+Wg1vx4frN2/RG/NA7SYqqvKNLf39P2LSRA2pu6n0XYZA==}
+  styled-jsx@5.1.7:
+    resolution: {integrity: sha512-HPLmEIYprxCeWDMLYiaaAhsV3yGfIlCqzuVOybE6fjF3SUJmH67nCoMDO+nAvHNHo46OfvpCNu4Rcue82dMNFg==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
       '@babel/core': '*'
@@ -14462,7 +14462,7 @@ snapshots:
     optionalDependencies:
       '@babel/core': 7.23.9
 
-  styled-jsx@5.1.6(@babel/core@7.23.9)(react@18.2.0):
+  styled-jsx@5.1.7(@babel/core@7.23.9)(react@18.2.0):
     dependencies:
       client-only: 0.0.1
       react: 18.2.0
